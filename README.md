@@ -1,5 +1,5 @@
 # Predicting New York Times Comment Engagement
-![paperstack](./img/newspaper_stack.jpg)
+![paperstack](./img/newspaper_image.jpg)
 ## Business Problem
 The New York Times is reevaluating the comment moderation on its web content, in hopes of stimulating reader engagement, deepening the quality of user feedback, and identifying potentially problematic comments more quickly. They would like to use the existing recommendation tool to develop a machine learning model that will predict which comments will be most popular and which comments will be most likely to generate further engagement. The end goal will be to sort comments according to this prediction (as a third option available to users in addition to presenting comments ranked in response to recommendations or chronologically). Additionally, they would like to identify comments that are most likely to be flagged as abuse to bring these comments to the attention of moderators more quickly.
 ## Data
@@ -23,4 +23,4 @@ Each of these models used too much RAM or computation time to be effective.
 ## Recommendations
 The results of this project indicate that running a more formal analysis with more computation power (potentially in a distributed system such as PySpark) would lead to promising results around predicting the engagement levels of a comment based on the text itself. 
 ## For Further Information
-Please review the narrative of the analysis in [my jupyter notebook](./capstone-NYT Comments.ipynb) and review [my non-technical presentation](./capstone-NYT Comments Presentation.pdf).
+Please review the narrative of the analysis in [my jupyter notebook](./capstone-nyt.ipynb) and review [my non-technical presentation](./capstone-NYT Comments Presentation.pdf).
