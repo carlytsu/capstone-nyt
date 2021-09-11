@@ -3,6 +3,7 @@
 ## Business Problem
 The New York Times is reevaluating the comment moderation on its web content, in hopes of stimulating reader engagement, deepening the quality of user feedback, and identifying potentially problematic comments more quickly. They would like to use the existing recommendation tool to develop a machine learning model that will predict which comments will be most popular and which comments will be most likely to generate further engagement. The end goal will be to sort comments according to this prediction (as a third option available to users in addition to presenting comments ranked in response to recommendations or chronologically). Additionally, they would like to identify comments that are most likely to be flagged as abuse to bring these comments to the attention of moderators more quickly.
 ## Data
+Note: I ran this notebook on Google Colab using the Pro+ package, which gave me approximately 50 GB of RAM to work with. 
 The data used for this project represents articles and comments on The New York Times website in April 2017. I downloaded the dataset from Kaggle [at this address](https://www.kaggle.com/aashita/nyt-comments). The data was originally collected using the New York Times API. The process for this collection is well-documented on the Kaggle page.
 My original goal was to use data points from 4 months' worth of articles (potentially up to 1 million) and and unrestricted number of TF-IDF columns. That goal quickly proved unrealistic, as even fitting the TF-IDF model to that number of data points would have demanded over 1 TB of RAM. Ultimately, I ended up using about 2 weeks' worth of data, or around 130,000 data points.
 ## Results
@@ -28,7 +29,7 @@ Please review the narrative of the analysis in [my jupyter notebook](./NYT Capst
 ├── README.md                       
 ├── NYT Capstone.ipynb                                   <- Jupyter Notebook presentation
 ├── NYT Capstone - Presentation.pdf                      <- Non-technical presentation
-├── NYT Capstone.pdf   <- PDF of Jupyter Notebook
+├── NYT Capstone.pdf                                     <- PDF of Jupyter Notebook
 └── images for readme                                    <- directory containing visualizations and images for presentation
 
 (Data files are not included in this repository due to size, but can be downloaded from [Kaggle.](https://www.kaggle.com/aashita/nyt-comments)
