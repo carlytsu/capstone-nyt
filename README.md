@@ -1,5 +1,5 @@
 # Predicting New York Times Comment Engagement
-![paperstack](./img/newspaper_image.jpg)
+![paperstack](./newspaper_image.jpg)
 ## Business Problem
 The New York Times is reevaluating the comment moderation on its web content, in hopes of stimulating reader engagement, deepening the quality of user feedback, and identifying potentially problematic comments more quickly. They would like to use the existing recommendation tool to develop a machine learning model that will predict which comments will be most popular and which comments will be most likely to generate further engagement. The end goal will be to sort comments according to this prediction (as a third option available to users in addition to presenting comments ranked in response to recommendations or chronologically). Additionally, they would like to identify comments that are most likely to be flagged as abuse to bring these comments to the attention of moderators more quickly.
 ## Data
